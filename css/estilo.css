@@ -1,0 +1,114 @@
+*{
+    margin:0; /* nos divide el documento web : superior , inferior, izquierda y derecha */
+    padding:0; /* nos separa todos las etiquetas html5*/
+}
+body{
+    background: #e6e6e6;
+    display: block;
+}
+header, .main, footer{
+    background: #fff;
+    width: 90%;
+    max-width: 1000px;
+    margin:20px auto;
+}
+header nav{
+    background: rgb(41, 41, 250);
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float:left;
+}
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background: black;
+}
+.main .articles{
+    width: none;
+    margin-right: 1.5%;
+    float: left;
+}
+.main .articles article{
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+aside{
+    width: 30%;
+    background: white;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer{
+    background-color: blue;
+    color: white;
+    clear:both;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        display: block;
+    }
+
+    aside img {
+        width: 200px;
+    }
+
+    .main .articles{
+        width: none;
+        margin-right: 1.5%;
+        float: left;
+    }
+
+    aside marquee {
+        width: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        display: block;
+    }
+
+    aside {
+        float: none;
+    }
+
+    aside img {
+        width: 200px;
+    }
+
+    aside marquee {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    body {
+        display: block;
+    }
+
+    aside {
+        float: none;
+    }
+
+    aside img {
+        width: 200px;
+    }
+
+    aside marquee {
+        width: 200px;
+    }
+}
